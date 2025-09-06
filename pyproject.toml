@@ -8,4 +8,5 @@ dependencies = [
     "discord-py>=2.6.3",
     "dotenv>=0.9.9",
     "openai>=1.102.0",
+    "pillow>=11.3.0",
 ]

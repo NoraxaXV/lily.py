@@ -6,12 +6,13 @@ import asyncio
 
 
 TRIGGER_WORDS = ["lily", "chocolate"]
-AI_MODEL = "lilychan-ei1p"
+
 
 class ShapeAI(commands.Cog):
-    def __init__(self, bot, API_TOKEN):
+    def __init__(self, bot, API_TOKEN, AI_MODEL):
         self.bot: commands.Bot = bot
         self.client = OpenAI(api_key=API_TOKEN, base_url="https://api.shapes.inc/v1")
+        self.model = AI_MODEL
         self.message_log = []
 
     @commands.Cog.listener()
@@ -33,7 +34,9 @@ class ShapeAI(commands.Cog):
                 }
             )
             if message.reference:
-                reference = await message.channel.fetch_message(message.reference.message_id)
+                reference = await message.channel.fetch_message(
+                    message.reference.message_id
+                )
                 self.message_log.append(
                     {
                         "role": "developer",
@@ -44,7 +47,7 @@ class ShapeAI(commands.Cog):
             self.message_log.append({"role": "user", "content": message.content})
             response = (
                 self.client.chat.completions.create(
-                    model=f"shapesinc/{AI_MODEL}", messages=self.message_log
+                    model=f"shapesinc/{self.model}", messages=self.message_log
                 )
                 .choices[0]
                 .message.content
