@@ -6,7 +6,7 @@ import PIL.ImageDraw as ImageDraw
 import io
 import logging
 
-@commands.command()
+@commands.hybrid_command()
 async def crystalize(ctx: commands.Context, *, liberal: discord.User = None):
     if liberal == None:
         if ctx.message.reference != None:
