@@ -3,16 +3,16 @@ import discord
 import discord.ext.commands as commands
 import logging
 import asyncio
-
+import os
 
 TRIGGER_WORDS = ["lily", "chocolate"]
 
 
-class ShapeAI(commands.Cog):
-    def __init__(self, bot, API_TOKEN, AI_MODEL):
+class Shape(commands.Cog):
+    def __init__(self, bot):
         self.bot: commands.Bot = bot
-        self.client = OpenAI(api_key=API_TOKEN, base_url="https://api.shapes.inc/v1")
-        self.model = AI_MODEL
+        self.client = OpenAI(api_key=os.getenv("SHAPES_API_TOKEN"), base_url="https://api.shapes.inc/v1")
+        self.model = os.getenv("AI_MODEL")
         self.message_log = []
 
     @commands.Cog.listener()
@@ -56,3 +56,7 @@ class ShapeAI(commands.Cog):
                 async with message.channel.typing():
                     await asyncio.sleep(len(msg) / 25)
                 await message.channel.send(msg)
+
+
+async def setup(bot: commands.Bot):
+    await bot.add_cog(Shape(bot))
