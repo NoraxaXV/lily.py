@@ -3,6 +3,9 @@ import discord.ext.commands as commands
 import discord.ext.tasks as tasks
 import random
 import logging
+import datetime
+
+ADO_TIME = datetime.time(hour=11, tzinfo=datetime.timezone.utc)
 
 
 class AdoPoster(commands.Cog):
@@ -26,7 +29,7 @@ class AdoPoster(commands.Cog):
         else:
             logging.warning(f"Sent an invalid channel id: {channel_id}")
 
-    @tasks.loop(hour=1)
+    @tasks.loop(time=ADO_TIME)
     async def post_ado(self):
         if not self.channel:
             logging.warning(
