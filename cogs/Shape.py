@@ -21,7 +21,7 @@ class Shape(commands.Cog):
             return
         if self.bot.user and (
             self.bot.user.id in map(lambda pings: pings.id, message.mentions)
-            or any(map(lambda trigger: trigger in message.content, TRIGGER_WORDS))
+            or any(map(lambda trigger: trigger in message.content.lower(), TRIGGER_WORDS))
         ):
             logging.info(
                 f'message! {message.author.display_name} sent "{message.content}"'
