@@ -1,5 +1,4 @@
 import discord
-import discord.client as client
 import discord.ext.commands as commands
 import PIL.Image as Image
 import PIL.ImageDraw as ImageDraw

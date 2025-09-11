@@ -8,7 +8,7 @@ import discord.ext.commands as commands
 dotenv.load_dotenv()
 discord.utils.setup_logging()
 
-EXTENSIONS = ["Shape", "Crystalize"]
+EXTENSIONS = ["Shape", "Crystalize", "AdoPoster"]
 
 bot = commands.Bot(
     command_prefix="!",
