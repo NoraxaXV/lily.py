@@ -1,14 +1,10 @@
 import asyncio
-import dotenv
 import logging
-import os
 import discord
 import discord.ext.commands as commands
+import config
 
-dotenv.load_dotenv()
 discord.utils.setup_logging()
-
-EXTENSIONS = ["Shape", "Crystalize", "AdoPoster"]
 
 bot = commands.Bot(
     command_prefix="!",
@@ -21,7 +17,7 @@ bot = commands.Bot(
 
 @bot.event
 async def on_ready():
-    for cog in EXTENSIONS:
+    for cog in config.get("EXTENSIONS"):
         await bot.load_extension(f"cogs.{cog}")
     await bot.tree.sync()
     logging.info(f"found command: {bot.get_command("crystalize")}")
@@ -33,6 +29,6 @@ async def ping(ctx):
 
 if __name__ == "__main__":
     try:
-        asyncio.run(bot.start(os.getenv("DISCORD_BOT_TOKEN")))
+        asyncio.run(bot.start(config.get("DISCORD_BOT_TOKEN")))
     except KeyboardInterrupt:
         pass

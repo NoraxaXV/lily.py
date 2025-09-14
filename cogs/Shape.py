@@ -3,16 +3,16 @@ import discord
 import discord.ext.commands as commands
 import logging
 import asyncio
-import os
-
-TRIGGER_WORDS = ["lily", "chocolate"]
+import config
 
 
 class Shape(commands.Cog):
     def __init__(self, bot):
         self.bot: commands.Bot = bot
-        self.client = OpenAI(api_key=os.getenv("SHAPES_API_TOKEN"), base_url="https://api.shapes.inc/v1")
-        self.model = os.getenv("AI_MODEL")
+        self.client = OpenAI(
+            api_key=config.get("SHAPES_API_TOKEN"), base_url="https://api.shapes.inc/v1"
+        )
+        self.model = config.get("SHAPE_MODEL")
         self.message_log = []
 
     @commands.Cog.listener()
@@ -21,7 +21,12 @@ class Shape(commands.Cog):
             return
         if self.bot.user and (
             self.bot.user.id in map(lambda pings: pings.id, message.mentions)
-            or any(map(lambda trigger: trigger in message.content.lower(), TRIGGER_WORDS))
+            or any(
+                map(
+                    lambda trigger: trigger in message.content.lower(),
+                    config.get("TRIGGER_WORDS"),
+                )
+            )
         ):
             logging.info(
                 f'message! {message.author.display_name} sent "{message.content}"'

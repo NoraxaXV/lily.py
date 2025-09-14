@@ -1,0 +1,215 @@
+SHAPE_MODEL: neko-kkgw
+EXTENSIONS:
+  - Shape
+  - AdoPoster
+  - Crystalize
+TRIGGER_WORDS:
+  - lily
+  - chocolate
+ADO_POST_TIME_HOURS: 11
+ADO_POST_TIME_MINUTES: 30
+ADO_VIDEOS:
+  # List of links to videos by Ado
+  # Ussewa
+  - https://youtu.be/Qp3b-RXtz4w?si=xvfed-2DTWCOB_eV
+  # Rockstar
+  - https://youtu.be/hRJpiCZlLX8
+  # Episode X
+  - https://youtu.be/9dKZeL2UbUM?si=IkFVadoto4HDPvIP
+  # Value
+  - https://youtu.be/5iAQF_q6FSk?si=GcUQZtOYWyZ_k0xl
+  # Mirror
+  - https://youtu.be/zsBBWBEZkFQ?si=z6g2vMbL-WYQ3OxJ
+  - https://youtu.be/Wjzd6O_CsEc?si=D8RVKIAbjGCW0UOT
+  - https://youtu.be/dir5nFkhpcc?si=D2SDk-COOZdwslXh
+  - https://youtu.be/Tbi4kahNcdc?si=ehHg4uOmAHAJh1Zi
+  - https://youtu.be/TbOLDRuKsgA?si=mt3faj8bk86iYkHK
+  # Jukkai cover
+  - https://youtu.be/BFVn0ZQwGpk?si=6DEURKr6SKrxWhl0
+  - https://youtu.be/EFsSYiNl2AQ?si=ZYMqx14O9hvoUtwm
+  # Aishite Aishite Aishite
+  - https://youtu.be/A7FRtZXoXlQ?si=OLWwQfpYSTEzeebU
+  # Charles
+  - https://youtu.be/trIiMhTDKxo?si=NrkeJ_03u00SmgiG
+  # Bouquet for me
+  - https://youtu.be/CNF5S8Kewzo?si=_ZGOGBMNksx4yHXS
+  - https://youtu.be/gONgtEf-Pyg?si=Tsm8WRDOzwC8iXzf
+  # Elf
+  - https://youtu.be/SbxR25brgoE?si=JBGnUNdXkEVtuUp0
+  # Nukegara
+  - https://youtu.be/JpnqXqy-XMg?si=YL7NlQz-fuKuPOVe
+  # Sayori Biyori and Time Machine with Miku
+  - https://youtu.be/nIWZfhpnq6M?si=C8pLu7T5wm8CxNBp
+  # Shoka
+  - https://youtu.be/GORsp0gc2Nc?si=92DrRLYGzSUx1926
+  # Villian utattamita
+  - https://youtu.be/vvG3BhuBLz8?si=BmZ23_f8xO0TUw-1
+  # Shoop Shoop
+  - https://youtu.be/OyrXt_XnHEE?si=_lB54om_YERBjE9U
+  # Show Teddy Loid ReMix
+  - https://youtu.be/KBXoX8p0mV4?si=D75fDWgDSK2824st
+  # Show Another Story
+  - https://youtu.be/jYo4TtNRAsU?si=6nA4pfL3ogIoEvTr
+  - https://youtu.be/o0eEFR6Q9as?si=dnG3vg8AJHZYKFlN
+  # RuLe
+  - https://youtu.be/0Z_YqhYHhpg?si=sQTiF1WdbTx0mfIF
+  # Life Against Death
+  - https://youtu.be/kRZ9y2yqjxQ?si=muKl9rHCBAMWqoVN
+  - https://youtu.be/nV5SHldicJY?si=_WPptHS7TwOKvRCN
+  # Aishite Live
+  - https://youtu.be/HmkbBdD8044?si=EobV2efugKxqEYfM
+  # Mirror
+  - https://youtu.be/zsBBWBEZkFQ?si=AbQhj-m6FODK0rKa
+  - https://youtu.be/zS2bYiGdfLE?si=x-T8jGzg_B5PvFhM
+  - https://youtu.be/ZErhdHtPar0?si=bFN3mu0AwzztrIGi
+  # Value
+  - https://youtu.be/5iAQF_q6FSk?si=nPHnOzTxFe_R96Gu
+  # Choclate Cadabra
+  - https://youtu.be/c5j7lpWprro?si=0qjWyY50OxkAeev3
+  - https://youtu.be/CdcSSJZS89w?si=jDNvpm0pj1hTwDMk
+  # Hello Signals
+  - https://youtu.be/WEYTjr4z70o?si=VAVBd7iqtxZfF8al
+  - https://youtu.be/iL7uoLCbJoc?si=gUp8mBrNxhgXEFT8
+  # unravel live
+  - https://youtu.be/khplMpm4ctc?si=mZvVJEG9q1pSYHhA
+  # unravel
+  - https://youtu.be/eZuDklxsaRg?si=5pxCj14vw6xefzEv
+  # All Night Radio
+  - https://youtu.be/lfw8W3uWO7s?si=mL1Mfzi2ed9gLZM8
+  # Culture Shock
+  - https://youtu.be/13ZBjvLH9NE?si=AHWaUt_WgASYQFkB
+  # Blue Flame
+  - https://youtu.be/OqmvHWZ2dhc?si=Unw9KOeouf-2-9tP
+  - https://youtu.be/LyorMhAGkxE?si=rSEep0PvJb3O-e5W
+  - https://youtu.be/W_fHWaoQwkw?si=tV2CWGe0R0MtPEG-
+  - https://youtu.be/Q9X0J_tLHwY?si=-c4UQwb7KLjD-X4T
+  # Show
+  - https://youtu.be/pgXpM4l_MwI?si=ItR34BwDYCq4VJdC
+  # Unforgiven
+  - https://youtu.be/cUX6PXB_L6A?si=RpnxEkx5HW7rS6LD
+  # Ready Steady Go
+  - https://youtu.be/lZwThdw6IYA?si=Kye0kJibGCmI3w7A
+  - https://youtu.be/eoV6Cb8sYGs?si=uMCcqoxGsu5KQkJG
+  - https://youtu.be/k2CO3gJTnYE?si=Uv5ue7K9f4YSbJAr
+  - https://youtu.be/aOKa-5AHCtU?si=EVnWbwHJHCHEftog
+  - https://youtu.be/oy2WTnhVT2w?si=wQaAXaTbR7nm3q9d
+  - https://youtu.be/qgqc4NgIaVU?si=gJYBfLuHGWPQIIfo
+  - https://youtu.be/eXy6ZSEIAX0?si=-nwfvl5oOFqwFxU-
+  # Overdose
+  - https://youtu.be/sGNkT6XyQRc?si=Y-WFpfudyD5w61B_
+  # I'm a Controversy
+  - https://youtu.be/lZGo8jcEW2M?si=97jmIg-G6_W9Ymre
+  - https://youtu.be/yQI-7GIKN7I?si=qT8eqr7scYPT8vW2
+  - https://youtu.be/2EmstVQeEiA?si=eHOdSDJQ-4oxyt-I
+  - https://youtu.be/LVgCDkzSJwI?si=V-EuPaEee1AxwKJq
+  # FREEDOM
+  - https://youtu.be/hgyGhu49sGc?si=XNA7FpgrUdQzmgEI
+  # missing
+  - https://youtu.be/VQtmqpSE64w?si=reVgFNZONp7fqwwb
+  - https://youtu.be/OSVLeArML9c?si=Eso6H4OYnkZHG24U
+  # Rebellion
+  - https://youtu.be/0Y8e0LJf0i0?si=FnMikPy1uERFiRkZ
+  # Where the Wind Blows
+  - https://youtu.be/YO-rXgQKlF8?si=f9ayZqzMsjppUNQY
+  - https://youtu.be/1UVwsed3JQU?si=f2kA2-_Vh2uo5zjP
+  # Tot Musica
+  - https://youtu.be/V9_ZpqfqHFI?si=A6NDEvnCpGUn3G4o
+  # The World's Continuation
+  - https://youtu.be/b3GCfyNKeLs?si=kjxq5yXtUD9Mk2M1
+  # Fleeting Lullaby
+  - https://youtu.be/hyV1AJiFNyo?si=-ye1rVKq7vLYHnQO
+  # Crime and Punishment
+  - https://youtu.be/x1UsJ2Znjk0?si=C5B7T96JopVdzwVw
+  - https://youtu.be/7i_nc5GGIsI?si=5BiLNBWmlYeF9No8
+  - https://youtu.be/gt-v_YCkaMY?si=aVMT6MNmNJ6V1kWd
+  # I'm invincible
+  - https://youtu.be/sk1Z-Hqwwog?si=Z53-XyMwDI_c053Y
+  # New Genesis
+  - https://youtu.be/1FliVTcX8bQ?si=cYI4wCCQMZTU4pE1
+  # Lucky Bruto
+  - https://youtu.be/u-G_zzhLSy8?si=JtGGq8vXRA6_-09n
+  # Motherland
+  - https://youtu.be/_wZfYtYwxro?si=LwmQ7fjxw0s-2cT9
+  # Domestic De Violence
+  - https://youtu.be/iRMYLKIWyUk?si=i6kfkmvKcRfCpKbh
+  # Eien no Akuruhi
+  - https://youtu.be/ZHAnZTVF_10?si=43bp7tcXn3HbsVNv
+  # Kagakushu
+  - https://youtu.be/55W2LxbQoHc?si=wB0VhDtw1YEQD7IQ
+  # Fireworks
+  - https://youtu.be/5_-TcIOxm60?si=zlfC_cdf9uIoPVEu
+  # KokoroToluNanoFukakai
+  - https://youtu.be/BMb5IetESGE?si=Cca_Vu-OyjlTs9UA
+  - https://youtu.be/wuYIVacOTF8?si=XI3ZVxF7FGb4OnNA
+  # Its a wonderful cat life
+  - https://youtu.be/Uuqp7WH4-Wo?si=kxRrMOaZhLrM5ka4
+  - https://youtu.be/3tPBEjxqEc4?si=QWWKH910uVhxyGDW
+  # Snow song Show
+  - https://youtu.be/nuvNgt60km4?si=MP0frnvdnKTeKCXU
+  # Ashura Chan
+  - https://youtu.be/cyq5-StPISU?si=YxK0EEcDyrLa5wew
+  - https://youtu.be/Flw53ezXBYg?si=tP-hVUDDxHk-l8Bp
+  - https://youtu.be/PcA3BIzKxiw?si=TQC6CLzQYfhZDb2q
+  - https://youtu.be/xRayul0ZnkY?si=aAsxcZXmzkyikTyJ
+  - https://youtu.be/dLmaSaCVFx0?si=wyinie7vU2DNQLY1
+  - https://youtu.be/y-dMrhGdCms?si=aX5RzhX2PyWEK6gc
+  # Odo Bon Odo Remix
+  - https://youtu.be/Cw_tD7MXeEI?si=ZDJkd40Vi8HKpHol
+  # Zanelli
+  - https://youtu.be/pWZwiUaA0O8?si=clKm5JQV-vhBInma
+  # Aitakute
+  - https://youtu.be/jTVSU-Lr1ew?si=zIPTAPmDcl8TlyE9
+  # Yoru no Pierrot [TeddyLoid Remix]
+  - https://youtu.be/-KQAAeUTOQ4?si=0-CKuGIA1pvgvs1t
+  - https://youtu.be/P12337hMnbI?si=mxFIe5YZXUKBthue
+  # Yoru No Pierrot
+  - https://youtu.be/cSgZxz3le7s?si=TOCSISv6j15TRm8i
+  - https://youtu.be/UcpAHDF8yZI?si=DFDTXfwHc_09WE_7
+  # Love is War
+  - https://youtu.be/1OI4Bp8fGYw?si=1bIFRV034ACp8mhF
+  # Odo
+  - https://youtu.be/YnSW8ian29w?si=neH5OE3qO4WQBuiK
+  - https://youtu.be/zs6Mnu4gMHM?si=Dfmf6xptnahGLj3o
+  # Ussewa Giga Remix
+  - https://youtu.be/sOiMD45QGLs?si=0neQlT7NEawLWrUQ
+  - https://youtu.be/QLsXgj4_gOc?si=uv2GNZsF6L6mKiES
+  # Readymade
+  - https://youtu.be/jg09lNupc1s?si=qxjsVMVWZU_POi70
+  # Blackrockshooter
+  - https://youtu.be/nMpD5q5wqPM?si=cl02UWuf5uxJBpfz
+  # Love ka?
+  - https://youtu.be/YTQV48V44Sw?si=AKAsOMtdBTz73j_e
+  # Ussewa Piano Ver.
+  - https://youtu.be/G_jdDwi3Otw?si=1IbJTrqGXp2lnqVx
+  # USSEWA
+  - https://youtu.be/Qp3b-RXtz4w?si=-8OSGuSSoEtOBZ0N
+  # Sunny Wave
+  - https://youtu.be/1M_A3OIEceg?si=6yA7xG3IEafB0QnA
+  # Limbo
+  - https://youtu.be/13dECLUD-5Q?si=uh3KigCCHk8C1ZjX
+  - https://youtu.be/n_sDtV5oZR0?si=VTD2WKJNt0BAw6XX
+  - https://youtu.be/UoGacSBPYPc?si=54sKdpZOEA3HN-YB
+  - https://youtu.be/aOIrxUTBRgs?si=jzQSEC8FAZFI4AKn
+  - https://youtu.be/aOIrxUTBRgs?si=jzQSEC8FAZFI4AKn
+  - https://youtu.be/slcfa-0urok?si=2XnTR5LUB2K-38Mi
+  - https://youtu.be/9cBPLMrCG6o?si=J54rETGUh-0sIFzT
+  # Basket Worm
+  - https://youtu.be/A4fcb5LV1F8?si=NkORmo6ASNQn8Et4
+  # Bin cover
+  - https://youtu.be/NfkXMkJV98A?si=p0BSSGaBLlJ5NzRH
+  - https://youtu.be/8Lf_sgxIWlg?si=l0UJb5nOsyqdwyob
+  - https://youtu.be/6uR_UxqGoug?si=r3FYP5NQ_KtysG1f
+  - https://youtu.be/tYMSo9gW8Ks?si=SnJ88LfoKHk74mcU
+  - https://youtu.be/N5cSFdGANVc?si=GtTiRXn-0K1oWEfl
+  - https://youtu.be/h1q7BNK5U9A?si=3_o_xq32F3F3t5kP
+  - https://youtu.be/V37DacsS_Wg?si=2U1WoDoScWKu65fi
+  # Melty Land Nightmare
+  - https://youtu.be/OZYqBsmtwuA?si=haZG4j4ZMW-7KOEB
+  - https://youtu.be/R8SsFdv35Dg?si=SPtg6pdyV_Flh6gS
+  - https://youtu.be/iHIrEqU5cwM?si=4NA3Vstcl1gEQ-tp
+  - https://youtu.be/cfVYSHvAhaQ?si=ZYDUWiYiS2p9XJlE
+  - https://youtu.be/qL3chh5M5d0?si=5Co-OnfJDe19mDqU
+  - https://youtu.be/gmJiYoRhO5g?si=2o1MLRvrbPA6qiJ4
+  - https://youtu.be/gmJiYoRhO5g?si=5vkPSy1EvsALRCBC
+  - https://youtu.be/Io9gOyAlq9g?si=18OjMTQoZc0AL8_L
+  - https://youtu.be/hOxAQO57zyY?si=Zf8SZ2ru_0AZhe0J

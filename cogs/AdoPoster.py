@@ -4,8 +4,7 @@ import discord.ext.tasks as tasks
 import random
 import logging
 import datetime
-
-ADO_TIME = datetime.time(hour=11, tzinfo=datetime.timezone.utc)
+import config
 
 
 class AdoPoster(commands.Cog):
@@ -29,25 +28,22 @@ class AdoPoster(commands.Cog):
         else:
             logging.warning(f"Sent an invalid channel id: {channel_id}")
 
-    @tasks.loop(time=ADO_TIME)
+    @tasks.loop(
+        time=datetime.time(
+            hour=config.get("ADO_POST_TIME_HOURS"),
+            minute=config.get("ADO_POST_TIME_MINUTES"),
+            tzinfo=datetime.timezone.utc,
+        )
+    )
     async def post_ado(self):
         if not self.channel:
             logging.warning(
                 "No ado channel set :( please set one with /setadopostchannel NOW"
             )
             return
-        with open("./ado_videos.txt") as links:
-            await self.channel.send(
-                "ADO POSTING OF THE DAY: \n"
-                + random.choice(
-                    list(
-                        filter(
-                            lambda line: not line.strip().startswith("#"),
-                            links.readlines(),
-                        )
-                    )
-                )
-            )
+        await self.channel.send(
+            "ADO POSTING OF THE DAY: \n" + random.choice(config.get("ADO_VIDEOS"))
+        )
 
 
 async def setup(bot: commands.Bot):
