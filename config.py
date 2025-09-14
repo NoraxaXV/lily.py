@@ -5,7 +5,7 @@ import yaml
 with open("./default.settings.yaml") as fp:
     _config = yaml.safe_load(fp)
 try:
-    with open(os.getenv("HOME") + "/.config/lily.py/config.json") as fp:
+    with open(os.getenv("HOME") + "/.config/lily.py/settings.yaml") as fp:
         _config.update(yaml.safe_load(fp))
 except FileNotFoundError:
     pass
